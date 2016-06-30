@@ -18,18 +18,18 @@
 #define k_year 2016
 
 //URLs Setting
-#define k_help_url @"http://owncloud.com/mobile/help"
+#define k_help_url @"https://dev.disk.bg/index.php/settings/help"
 #define k_recomended_url @"http://owncloud.com/mobile/recommend"
 #define k_send_feedback @"http://owncloud.com/mobile/feedback"
 
 //Hide url server
-#define k_hide_url_server NO
+#define k_hide_url_server YES
 
 //Set a default url server. It must be obligaroy if we hide the url server (#define k_hide_url_server YES)
-#define k_default_url_server @""
+#define k_default_url_server @"https://dev.disk.bg"
 
 //Show multiaccount or disconnect
-#define k_multiaccount_available YES
+#define k_multiaccount_available NO
 
 //Have icon on backbutton
 #define k_have_icon_on_popover YES
@@ -68,10 +68,10 @@
 #define k_show_help_option_on_settings YES
 
 //Show social
-#define k_show_recommend_option_on_settings YES
+#define k_show_recommend_option_on_settings NO
 
 //Show feedback
-#define k_show_feedback_option_on_settings YES
+#define k_show_feedback_option_on_settings NO
 
 //Show impressum
 #define k_show_imprint_option_on_settings NO
@@ -131,7 +131,7 @@
 #define k_url_link_on_login @"https://owncloud.com/mobile/new"
 
 //User-Agent
-#define k_user_agent @"Mozilla/5.0 (iOS) ownCloud-iOS/"
+#define k_user_agent @"Mozilla/5.0 (iOS) Disk.bg-iOS/"
 
 //Enable/Disable Background uploads and download (NSURLSession or NSOperation)
 #define k_is_background_active YES
